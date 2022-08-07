@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet"> 
+  <title>Project Design 1</title>
+</head>
+<body class="bg-slate-100 mx-32">
+  <div id="navbar" class="flex items-center mt-6">
+    <div id="logo" class="mr-6">
+      <img src="img/logo.png" width="50" alt="MR Logo">
+    </div>
+    <div id="links">
+      <ul class="flex">
+        <li class="mx-6 text-slate-500 duration-300 hover:text-black cursor-pointer">Vectors</li>
+        <li class="mx-6 text-slate-500 duration-300 hover:text-black cursor-pointer">Photos</li>
+        <li class="mx-6 text-slate-500 duration-300 hover:text-black cursor-pointer">PSD</li>
+        <li class="mx-6 text-slate-500 duration-300 hover:text-black cursor-pointer">Video</li>
+        <li class="mx-6 hover:text-black cursor-pointer font-semibold flex items-center">
+          More
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill ml-1" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </li>
+      </ul>
+    </div>
+    <div id="login" class="ml-auto flex items-center">
+      <a href="#" class="flex items-center duration-300 text-slate-400 border border-slate-400 px-4 py-2 rounded-lg mr-10 hover:bg-slate-400 hover:text-white" title="Submit your art!">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+        Submit
+      </a>
+      <a href="#" class="bg-white duration-300 hover:bg-slate-50 rounded-full p-3 shadow-xl shadow-slate-300 mr-3" title="Login by Gmail">
+        <img src="img/gmail2.png" alt="gmail" width="20">
+      </a>
+      <a href="#" class="bg-white duration-300 hover:bg-slate-50 rounded-full p-3 shadow-xl shadow-slate-300 mr-3" title="Login by Facebook">
+        <img src="img/facebook.png" alt="facebook" width="20">
+      </a>
+    </div>
+  </div>
+  <div id="main">
+    <div id="title" class="text-center my-8">
+      <h1 class="text-4xl mb-6">Popular Pro Stock Vectors</h1>
+      <p class="text-slate-500">High quality Vectors with worry-free licensing for</p>
+      <p class="text-slate-500">personal and commercial use.</p>
+    </div>
+    <div id="searchbar" class="flex justify-between bg-white p-2 rounded-xl mx-80 shadow-lg shadow-slate-100">
+      <a href="#" class="flex items-center duration-300 border border-black p-2 mr-6 rounded-lg hover:bg-black hover:text-white" title="Submit your art!">
+        Vectors
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down ml-2" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </a>
+      <input type="text" class="w-full" placeholder="Search Vectors...">
+      <button class="duration-300 hover:bg-black hover:text-white rounded-lg px-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </button>
+    </div>
+    <div id="options" class="mt-12 mb-6 flex justify-between">
+      <div id="category">
+        <ul class="flex">
+          <li class="mr-10 text-slate-800 duration-300 hover:text-black cursor-pointer flex">
+            Latest
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill text-orange-500" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+          </li>
+          <li class="mr-10 text-slate-700 duration-300 hover:text-black cursor-pointer">Popular</li>
+          <li class="mr-10 text-slate-700 duration-300 hover:text-black cursor-pointer">|</li>
+          <li class="mr-10 text-orange-500 duration-300 hover:text-orange-700 cursor-pointer">Premium</li>
+          <li class="mr-10 text-blue-500 duration-300 hover:text-blue-700 cursor-pointer">Free</li>
+        </ul>
+      </div>
+      <div id="filter" class="flex">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-sliders duration-300 text-slate-700 hover:text-black cursor-pointer" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bookmark-plus-fill ml-6 duration-300 text-slate-700 hover:text-black cursor-pointer" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm6.5-11a.5.5 0 0 0-1 0V6H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V7H10a.5.5 0 0 0 0-1H8.5V4.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div id="items" class="flex mb-14">
+      <div id="card" class="bg-white p-6 mr-6 rounded-3xl duration-300 hover:shadow-2xl hover:shadow-slate-300">
+        <div id="img-container" class="bg-slate-100 rounded-2xl">
+          <small class="flex items-center justify-end text-right p-3 text-slate-400 font-semibold ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mr-2" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+            </svg>
+            Premium
+          </small>
+          <img src="img/illustration_cat.png" alt="Cat illustration" class=" px-12 pb-8" width="350">
+        </div>
+        <div id="desc" class="text-center">
+          <h3 class="text-slate-400 my-4 font-light text-xl"><b class="text-black text-4xl">C</b>at illustration</h3>
+          <a href="#" class="font-semibold underline flex items-center justify-center text-xl">
+            Download
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ml-3" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div id="card" class="bg-white p-6 mr-6 rounded-3xl duration-300 hover:shadow-2xl hover:shadow-slate-300">
+        <div id="img-container" class="bg-slate-100 rounded-2xl">
+          <small class="flex items-center justify-end text-right p-3 text-slate-400 font-semibold ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill mr-2" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+            </svg>
+            Premium
+          </small>
+          <img src="img/illustration_cycling.png" alt="Cycling illustration" class=" px-12 pb-8" width="350">
+        </div>
+        <div id="desc" class="text-center">
+          <h3 class="text-slate-400 my-4 font-light text-xl"><b class="text-black text-4xl">C</b>ycling illustration</h3>
+          <a href="#" class="font-semibold underline flex items-center justify-center text-xl">
+            Download
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ml-3" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div id="card" class="bg-white p-6 mr-6 rounded-3xl duration-300 hover:shadow-2xl hover:shadow-slate-300">
+        <div id="img-container" class="bg-slate-100 rounded-2xl">
+          <small class="flex items-center justify-end text-right p-3 text-slate-400 font-semibold ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock-fill mr-3" viewBox="0 0 16 16">
+              <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"/>
+            </svg>
+            Free
+          </small>
+          <img src="img/illustration_samurai.png" alt="Samurai illustration" class=" px-12 pb-8" width="350">
+        </div>
+        <div id="desc" class="text-center">
+          <h3 class="text-slate-400 my-4 font-light text-xl"><b class="text-black text-4xl">S</b>amurai illustration</h3>
+          <a href="#" class="font-semibold underline flex items-center justify-center text-xl">
+            Download
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ml-3" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="flex justify-between items-center mb-12">
+      <div id="discover">
+        <a href="#" class="underline flex duration-300 p-3 hover:bg-slate-200 rounded-xl">
+          <p class="mr-6">Discover All<br>Collections</p>
+          <img class="shadow-xl shadow-slate-300" src="img/discover.png" alt="Discover All Collections" width="100">
+        </a>
+      </div>
+      <div id="nextpage">
+        <button class="flex items-center duration-300 bg-white hover:bg-slate-200 px-4 py-2 rounded-md">
+          Next page
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right ml-6" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </div>
+      <div id="pagination" class="flex items-center text-sm text-slate-500">
+        <p>Page</p>
+        <div id="pagelinks" class="mx-3 flex">
+          <button class="bg-slate-200 text-slate-400 border rounded-md px-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+            </svg>
+          </button>
+          <button class="bg-white border rounded-md px-2 mx-1">1</button>
+          <button class="bg-slate-200 border rounded-md px-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </button>
+        </div>
+        <p>of 120</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
